@@ -4,7 +4,9 @@
     "strict": true,
     "esModuleInterop": true,
     "moduleResolution": "node",
-    "target": "es6"
+    "target": "es6",
+    "allowJs": true,
+    "module": "CommonJS"
   },
   "include": ["./src/**/*.ts"],
   "exclude": ["node_modules", "**/*.spec.ts"]
